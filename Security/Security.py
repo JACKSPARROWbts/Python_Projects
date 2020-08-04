@@ -1,11 +1,9 @@
-import face_recognition
-import smtplib 
+import face_recognition,smtplib 
 from email.mime.multipart import MIMEMultipart 
 from email.mime.text import MIMEText 
 from email.mime.base import MIMEBase 
 from email import encoders 
-import pyttsx3 as tts 
-import cv2
+import pyttsx3 as tts ,cv2
 import pyautogui as gui,time
 engine=tts.init()
 engine.setProperty("rate",200)
